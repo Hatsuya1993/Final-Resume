@@ -5,7 +5,7 @@ const catchAsync = require("../utils/catchAsync");
 const homePage = catchAsync(async (req, res) => {
   res.render("home", {
     title1: "Muhammad Nur Hazrul",
-    title2: "Front-End & Back-End Developer"
+    title2: "Full-Stack Developer"
   });
 });
 
